@@ -1,0 +1,64 @@
+/* CSS Document */
+
+body{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 14px;
+}
+h1,h2,h3,h4,h5{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  
+}
+
+h1{
+  font-size: 150%;
+  padding: 10px;
+}
+h2{
+}
+h3{
+}
+h4{
+}
+h5{
+}
+
+.container{
+  padding-bottom: 10px;
+}
+.padding5{
+  padding: 5px;
+}
+.padding10{
+  padding: 10px;
+}
+.padding15{
+  padding: 15px;
+}
+.padding30{
+  padding: 30px;
+}
+@media screen and (min-width:320px) and (max-width: 959px){
+  
+}
+
+#rue_wrap{
+  height: 100px;
+  overflow-y:scroll;
+}
+.map {
+	padding-right:5px
+}
+.map button {
+	width: auto;
+  padding:0;
+  margin:0;
+  background:none;
+  border:0;
+  font-size:0;
+  line-height:0;
+  overflow:visible;
+  cursor:pointer;
+}
+.th button {
+	size:10px
+}
