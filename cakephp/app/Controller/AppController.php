@@ -67,4 +67,10 @@ class AppController extends Controller {
  		$this->redirect(array('controller' => 'Search', 'action' => 'index'));
 	}
 
+	public function toS () {
+		if(!isset($_SERVER['HTTPS'])) {
+			header("location: ".'https://'. env("SERVER_NAME"). $_SERVER['REQUEST_URI']);
+		}
+	}
+
 }
